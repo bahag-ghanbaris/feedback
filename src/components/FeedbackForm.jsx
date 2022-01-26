@@ -55,7 +55,9 @@ function FeedbackForm() {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h2>Please Tell us your ideas and Opinion!</h2>
+        <h1 className='text-3xl font-bold underline'>
+          Please Tell us your ideas and Opinion!
+        </h1>
         <RatingSelect select={(rating) => setRating(rating)} />
         <div className='input-group'>
           <input
