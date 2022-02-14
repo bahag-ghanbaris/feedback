@@ -66,6 +66,11 @@ export const FeedbackProvider = ({ children }) => {
     })
   }
 
+  // //Increase FontSize
+  // const increaseFontSize = () => {
+
+  // }
+
   return (
     <FeedbackContext.Provider
       value={{

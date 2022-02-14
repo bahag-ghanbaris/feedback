@@ -27,12 +27,15 @@ ul {
 }
 
 header {
-  height: 70px;
+  height: 100px;
   width: 100%;
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 30px;
+  color: #ff6a95;
+  font-size: 38px;
+  text-align: center;
 }
 
 .card {
@@ -45,7 +48,7 @@ header {
 }
 
 .card.reverse {
-  background-color: rgba(0, 0, 0, 0.4);
+  background-color: rgba(118, 150, 238, 0.4);
   color: #fff;
 }
 
@@ -142,6 +145,19 @@ input:focus {
   cursor: pointer;
   background: none;
   border: none;
+}
+
+.like,
+.dislike {
+  position: absolute;
+  top: 80px;
+  right: 20px;
+  cursor: pointer;
+  background: none;
+  border: none;
+}
+.dislike {
+  right: 50px;
 }
 
 .edit {

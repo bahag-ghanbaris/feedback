@@ -55,7 +55,7 @@ function FeedbackForm() {
   return (
     <Card>
       <form onSubmit={handleSubmit}>
-        <h1 className='text-3xl font-bold underline'>
+        <h1 className='text-2xl text-center font-bold'>
           Please Tell us your ideas and Opinion!
         </h1>
         <RatingSelect select={(rating) => setRating(rating)} />

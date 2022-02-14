@@ -5,6 +5,8 @@ import FeedbackStats from './components/FeedbackStats'
 import FeedbackForm from './components/FeedbackForm'
 import AboutPage from './pages/AboutPage'
 import { FeedbackProvider } from './context/FeedbackContext'
+import Footer from './components/Footer'
+// import FeedbackResult from './components/FeedbackResult'
 
 function App() {
   return (
@@ -21,12 +23,14 @@ function App() {
                   <FeedbackForm />
                   <FeedbackStats />
                   <FeedbackList />
+                  {/* <FeedbackResult /> */}
                 </>
               }
             ></Route>
             <Route path='/about' element={<AboutPage />} />
           </Routes>
         </div>
+        <Footer />
       </Router>
     </FeedbackProvider>
   )
